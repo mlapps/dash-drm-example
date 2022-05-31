@@ -1,0 +1,6 @@
+{
+  "name": "DashWidevineExample",
+  "identifier": "com.metrological.app.DashWidevineExample",
+  "version": "1.0.0",
+  "icon": "./static/icon.png"
+}
