@@ -1,11 +1,13 @@
-# Dash Widevine Example
+# Dash DRM Example
 
-## com.metrological.app.DashWidevineExample
+## com.metrological.app.DashDRMExample
 
-This repo demonstrates how the [Lightning SDK VideoPlayer](https://lightningjs.io/docs/#/lightning-sdk-reference/plugins/videoplayer) can be used to play content using Dash and Widevine DRM.
+This repo demonstrates how the [Lightning SDK VideoPlayer](https://lightningjs.io/docs/#/lightning-sdk-reference/plugins/videoplayer) 
+can be used to play protected media content with Dash (Widevine or PlayReady DRM).
 You can follow the instructions below to run the app.
 
-Please note that the app will only run correctly in [browsers compatible with Widevine](https://developers.google.com/widevine/drm/overview)
+Please note that some browsers may not be compatible with all the DRM systems featured in this app.
+
 
 ### Getting started
 

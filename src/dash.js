@@ -4,7 +4,7 @@ import { VideoPlayer } from '@lightningjs/sdk'
 let player = null
 const defaults = {
   debug: {
-    logLevel: dashjs.Debug.LOG_LEVEL_DEBUG, // Turn off console logging
+    logLevel: dashjs.Debug.LOG_LEVEL_DEBUG, // Turn on console logging
   },
   streaming: {
     scheduling: {
