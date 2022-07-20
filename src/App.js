@@ -68,13 +68,17 @@ export default class App extends Lightning.Component {
     const playerOpts = {
       protectionData: {
         'com.widevine.alpha': {
-          serverURL: 'https://widevine-proxy.appspot.com/proxy',
+          serverURL: 'https://drm-widevine-licensing.axtest.net/AcquireLicense',
+          httpRequestHeaders: {
+            'X-AxDRM-Message':
+              'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2ZXJzaW9uIjoxLCJjb21fa2V5X2lkIjoiYjMzNjRlYjUtNTFmNi00YWUzLThjOTgtMzNjZWQ1ZTMxYzc4IiwibWVzc2FnZSI6eyJ0eXBlIjoiZW50aXRsZW1lbnRfbWVzc2FnZSIsImtleXMiOlt7ImlkIjoiOWViNDA1MGQtZTQ0Yi00ODAyLTkzMmUtMjdkNzUwODNlMjY2IiwiZW5jcnlwdGVkX2tleSI6ImxLM09qSExZVzI0Y3Iya3RSNzRmbnc9PSJ9XX19.4lWwW46k-oWcah8oN18LPj5OLS5ZU-_AQv7fe0JhNjA',
+          },
         },
       },
     }
 
     VideoPlayer.open(
-      'https://bitmovin-a.akamaihd.net/content/art-of-motion_drm/mpds/11331.mpd',
+      'https://media.axprod.net/TestVectors/v7-MultiDRM-SingleKey/Manifest_1080p.mpd',
       playerOpts
     )
   }

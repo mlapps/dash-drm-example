@@ -1,6 +1,6 @@
 {
   "name": "DashDRMExample",
   "identifier": "com.metrological.app.DashDRMExample",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "icon": "./static/icon.png"
 }
